@@ -4,7 +4,7 @@
 }
 
 body{
-  background: #F1F1F1;
+  background: linear-gradient(to right, black, #F1F1F1);
   font-family: 'Playfair Display', serif;
   overflow-x: hidden;
 }
@@ -16,7 +16,7 @@ a{
 
 .header{
   max-height: 150px;
-  background: blue;
+  background: linear-gradient(to left, blue, lime);
   color: yellow;
   font-family: sans-serif;
   padding: 25px;
@@ -38,7 +38,7 @@ a{
 
 nav{
   margin-top: 10px;
-  background: red;
+  background: linear-gradient(to right, blue, red);
   align-items: center;
   padding-top: 50px;
   padding-bottom: 1px;
