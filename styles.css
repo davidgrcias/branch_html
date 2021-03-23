@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 68vh;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background: #212523;
+  min-height: 60px;
+  align-items: center;
+}
+
+.left-side{
+  display: flex;
+}
+
+.left-side .nav-link-wrapper > a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 17.5px;
+}
+
+.left-side .nav-link-wrapper .dropdown{
+  display: none;
+  list-style: none;
+}
+
+.left-side .nav-link-wrapper:hover > .dropdown{
+  display: block;
+  position: absolute;
+  background: #212523;
+  width: 150px;
+  text-align: center;
+  margin-top: 19px;
+}
+
+.left-side .nav-link-wrapper .dropdown li{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.dropdown li a{
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.divider span{
+  display: block;
+  background: white;
+  height: 1px;
+  width: 150px;
+}
+
+.right-side h2{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2.0px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* hiasan */
+
+.left-side .nav-link-wrapper > a:hover{
+  border-bottom: 2px solid lightskyblue;
+}
+
+.left-side .nav-link-wrapper a:hover{
+  background: black;
+  color: lightskyblue;
+}
+
+.left-side .nav-link-wrapper .dropdown li.menu:hover{
+  background: black;
+}
+
+.left-side .nav-link-wrapper:hover > .dropdown{
+  border-bottom: 3px solid lightskyblue;
+}
