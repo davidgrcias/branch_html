@@ -1,0 +1,301 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: #eaeaea;
+  padding: 12px;
+}
+
+header{
+  max-width: 100%;
+  background: white;
+  margin: auto;
+  text-align: center;
+  padding: 35px;
+}
+
+header h1{
+  font-size: 45px;
+}
+
+header p{
+  font-size: 18px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background: #212523;
+}
+
+nav .left-side, nav .right-side{
+  display: flex;
+}
+
+nav .left-side a, nav .right-side a{
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.container{
+}
+
+.container .left-side{
+  max-width: 100%;
+}
+
+.container .right-side{
+  max-width: 100%;
+}
+
+.container .left-side .card{
+  background: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container .left-side .card .box{
+  background: #eaeaea;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.container .left-side .card h1{
+  font-size: 40px;
+}
+
+.container .left-side .card p.author{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.container .left-side .card p.title{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container .left-side .card p.trailer{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container .left-side .card .box img{
+  max-width: 100%;
+}
+
+.container .right-side .about{
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container .right-side .about img{
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.container .right-side .about p{
+  margin-top: 10px;
+}
+
+.container .right-side .popular{
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container .right-side .popular img{
+  margin-top: 10px;
+  min-width: 100%;
+  display: block;
+}
+
+.container .right-side .follow{
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container .right-side .follow p{
+  margin-top: 10px;
+}
+
+.container .right-side img{
+  width: 100px;
+}
+
+@media (min-width: 1000px){
+  header{
+    max-width: 100%;
+    background: white;
+    margin: auto;
+    text-align: center;
+    padding: 35px;
+  }
+
+  header h1{
+    font-size: 45px;
+  }
+
+  header p{
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background: #212523;
+  }
+
+  nav .left-side, nav .right-side{
+    display: flex;
+  }
+
+  nav .left-side a, nav .right-side a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container .left-side{
+    max-width: 90%;
+    margin-right: 8px;
+  }
+
+  .container .right-side{
+    max-width: 23%;
+  }
+
+  .container .left-side .card{
+    background: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container .left-side .card .box{
+    background: #eaeaea;
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .container .left-side .card h1{
+    font-size: 40px;
+  }
+
+  .container .left-side .card p.author{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .container .left-side .card p.title{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .container .left-side .card p.trailer{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+
+  .container .left-side .card .box img{
+    min-width: 100%;
+  }
+
+  .container .right-side .about{
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container .right-side .about img{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+  .container .right-side .about p{
+    margin-top: 10px;
+  }
+
+  .container .right-side .popular{
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container .right-side .popular img{
+    margin-top: 10px;
+    min-width: 100%;
+    display: block;
+  }
+
+  .container .right-side .follow{
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container .right-side .follow p{
+    margin-top: 10px;
+  }
+
+  .container .right-side img{
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  nav{
+    display: grid;
+    background: #212523;
+    text-align: center;
+    justify-content: center;
+  }
+
+  nav .left-side, nav .right-side{
+    display: grid;
+  }
+
+  nav .left-side a, nav .right-side a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+}
